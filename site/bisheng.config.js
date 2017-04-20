@@ -11,6 +11,7 @@ module.exports = {
       'CHANGELOG.en-US.md',
     ],
   },
+  root: '/ant-design/',
   theme: './site/theme',
   htmlTemplate: './site/theme/static/template.html',
   themeConfig: {
