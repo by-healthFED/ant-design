@@ -772,11 +772,13 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
     return (total > 0) ? (
       <Pagination
         key="pagination"
+        showQuickJumper
         {...pagination}
         className={`${this.props.prefixCls}-pagination`}
         onChange={this.handlePageChange}
         total={total}
-        size={size}
+        // size={size}
+        size="small"
         current={this.getMaxCurrent(total)}
         onShowSizeChange={this.handleShowSizeChange}
       />
