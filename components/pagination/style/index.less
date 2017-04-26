@@ -4,8 +4,12 @@
 
 @pagination-prefix-cls: ~"@{ant-prefix}-pagination";
 
-.@{pagination-prefix-cls} {
+.@{pagination-prefix-cls}-wrapper {
   font-size: @font-size-base;
+}
+
+.@{pagination-prefix-cls} {
+  display: inline-block;
 
   &:after {
     content: " ";
@@ -206,6 +210,20 @@
     }
   }
 
+  &-quick-jumper-button {
+    cursor: pointer;
+    padding: 0 8px;
+    margin-top: 1px;
+    background: @border-color-base;
+    outline: 0;
+    border: 0;
+    border-radius: @border-radius-base;
+    height: @input-height-base;
+    line-height: @input-height-base;
+    text-align: center;
+    vertical-align: top;
+  }
+
   &-simple &-prev,
   &-simple &-next {
     border: 0;
@@ -287,6 +305,11 @@
       }
     }
   }
+}
+
+.@{pagination-prefix-cls}-quick-jumper-button.mini {
+  height: 20px;
+  line-height: 20px;
 }
 
 @media only screen and (max-width: 1024px) {

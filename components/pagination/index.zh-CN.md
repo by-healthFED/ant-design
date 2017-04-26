@@ -30,6 +30,7 @@ cols: 1
 | showSizeChanger  | 是否可以改变 pageSize              | boolean        | false                    |
 | pageSizeOptions  | 指定每页可以显示多少条             | string[] | ['10', '20', '30', '40'] |
 | onShowSizeChange | pageSize 变化的回调                | Function(current, size)      | noop                     |
+| quickJumper      | 跳转按钮文本                       | string         | '确定'                    |
 | showQuickJumper  | 是否可以快速跳转至某页             | boolean         | false                    |
 | size             | 当为「small」时，是小尺寸分页      | string        | ""                       |
 | simple           | 当添加该属性时，显示为简单分页     | boolean        | -                       |

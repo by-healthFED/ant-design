@@ -72,53 +72,62 @@ exports[`Table.pagination renders pagination correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-2"
-          title="2"
-        >
-          <a>
-            2
-          </a>
-        </li>
-        <li
-          class=" ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-2"
+            title="2"
+          >
+            <a>
+              2
+            </a>
+          </li>
+          <li
+            class=" ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>

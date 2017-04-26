@@ -348,45 +348,54 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -545,45 +554,54 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -823,45 +841,54 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -1030,45 +1057,54 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -2380,45 +2416,54 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <ul
-          class="ant-pagination ant-table-pagination"
-          unselectable="unselectable"
+        <div
+          class="ant-table-pagination ant-pagination-wrapper"
         >
-          <li
-            class="ant-pagination-disabled ant-pagination-prev"
-            title="上一页"
+          <ul
+            class="ant-pagination "
+            unselectable="unselectable"
           >
-            <a />
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-            title="1"
-          >
-            <a>
-              1
-            </a>
-          </li>
-          <li
-            class="ant-pagination-disabled ant-pagination-next"
-            title="下一页"
-          >
-            <a />
-          </li>
-          <div
-            class="ant-pagination-options"
-          >
-            <div
-              class="ant-pagination-options-quick-jumper"
+            <li
+              class="ant-pagination-disabled ant-pagination-prev"
+              title="上一页"
             >
-              跳至
-              <input
-                type="text"
-                value="1"
-              />
-              页
+              <a />
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              title="1"
+            >
+              <a>
+                1
+              </a>
+            </li>
+            <li
+              class="ant-pagination-disabled ant-pagination-next"
+              title="下一页"
+            >
+              <a />
+            </li>
+            <div
+              class="ant-pagination-options"
+            >
+              <div
+                class="ant-pagination-options-quick-jumper"
+              >
+                跳至
+                <input
+                  type="text"
+                  value="1"
+                />
+                页
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+          <button
+            class="ant-pagination-quick-jumper-button"
+          >
+            确定
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -2592,45 +2637,54 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <ul
-          class="ant-pagination ant-table-pagination"
-          unselectable="unselectable"
+        <div
+          class="ant-table-pagination ant-pagination-wrapper"
         >
-          <li
-            class="ant-pagination-disabled ant-pagination-prev"
-            title="上一页"
+          <ul
+            class="ant-pagination "
+            unselectable="unselectable"
           >
-            <a />
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-            title="1"
-          >
-            <a>
-              1
-            </a>
-          </li>
-          <li
-            class="ant-pagination-disabled ant-pagination-next"
-            title="下一页"
-          >
-            <a />
-          </li>
-          <div
-            class="ant-pagination-options"
-          >
-            <div
-              class="ant-pagination-options-quick-jumper"
+            <li
+              class="ant-pagination-disabled ant-pagination-prev"
+              title="上一页"
             >
-              跳至
-              <input
-                type="text"
-                value="1"
-              />
-              页
+              <a />
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              title="1"
+            >
+              <a>
+                1
+              </a>
+            </li>
+            <li
+              class="ant-pagination-disabled ant-pagination-next"
+              title="下一页"
+            >
+              <a />
+            </li>
+            <div
+              class="ant-pagination-options"
+            >
+              <div
+                class="ant-pagination-options-quick-jumper"
+              >
+                跳至
+                <input
+                  type="text"
+                  value="1"
+                />
+                页
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+          <button
+            class="ant-pagination-quick-jumper-button"
+          >
+            确定
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -2761,45 +2815,54 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -2988,45 +3051,54 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -3554,45 +3626,54 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -4018,45 +4099,54 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -5353,91 +5443,100 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-2"
-          title="2"
-        >
-          <a>
-            2
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-3"
-          title="3"
-        >
-          <a>
-            3
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-4"
-          title="4"
-        >
-          <a>
-            4
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-          title="5"
-        >
-          <a>
-            5
-          </a>
-        </li>
-        <li
-          class="ant-pagination-jump-next"
-          title="向后 5 页"
-        >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-10"
-          title="10"
-        >
-          <a>
-            10
-          </a>
-        </li>
-        <li
-          class=" ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-2"
+            title="2"
+          >
+            <a>
+              2
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-3"
+            title="3"
+          >
+            <a>
+              3
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-4"
+            title="4"
+          >
+            <a>
+              4
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+            title="5"
+          >
+            <a>
+              5
+            </a>
+          </li>
+          <li
+            class="ant-pagination-jump-next"
+            title="向后 5 页"
+          >
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-10"
+            title="10"
+          >
+            <a>
+              10
+            </a>
+          </li>
+          <li
+            class=" ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -6681,53 +6780,62 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-2"
-          title="2"
-        >
-          <a>
-            2
-          </a>
-        </li>
-        <li
-          class=" ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-2"
+            title="2"
+          >
+            <a>
+              2
+            </a>
+          </li>
+          <li
+            class=" ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -7762,91 +7870,100 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination mini"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination mini"
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-2"
-          title="2"
-        >
-          <a>
-            2
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-3"
-          title="3"
-        >
-          <a>
-            3
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-4"
-          title="4"
-        >
-          <a>
-            4
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-          title="5"
-        >
-          <a>
-            5
-          </a>
-        </li>
-        <li
-          class="ant-pagination-jump-next"
-          title="向后 5 页"
-        >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-10"
-          title="10"
-        >
-          <a>
-            10
-          </a>
-        </li>
-        <li
-          class=" ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-2"
+            title="2"
+          >
+            <a>
+              2
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-3"
+            title="3"
+          >
+            <a>
+              3
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-4"
+            title="4"
+          >
+            <a>
+              4
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+            title="5"
+          >
+            <a>
+              5
+            </a>
+          </li>
+          <li
+            class="ant-pagination-jump-next"
+            title="向后 5 页"
+          >
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-10"
+            title="10"
+          >
+            <a>
+              10
+            </a>
+          </li>
+          <li
+            class=" ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button mini"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -8074,45 +8191,54 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -8386,45 +8512,54 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -8682,45 +8817,54 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -8977,45 +9121,54 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <ul
-          class="ant-pagination ant-table-pagination"
-          unselectable="unselectable"
+        <div
+          class="ant-table-pagination ant-pagination-wrapper"
         >
-          <li
-            class="ant-pagination-disabled ant-pagination-prev"
-            title="上一页"
+          <ul
+            class="ant-pagination "
+            unselectable="unselectable"
           >
-            <a />
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-            title="1"
-          >
-            <a>
-              1
-            </a>
-          </li>
-          <li
-            class="ant-pagination-disabled ant-pagination-next"
-            title="下一页"
-          >
-            <a />
-          </li>
-          <div
-            class="ant-pagination-options"
-          >
-            <div
-              class="ant-pagination-options-quick-jumper"
+            <li
+              class="ant-pagination-disabled ant-pagination-prev"
+              title="上一页"
             >
-              跳至
-              <input
-                type="text"
-                value="1"
-              />
-              页
+              <a />
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              title="1"
+            >
+              <a>
+                1
+              </a>
+            </li>
+            <li
+              class="ant-pagination-disabled ant-pagination-next"
+              title="下一页"
+            >
+              <a />
+            </li>
+            <div
+              class="ant-pagination-options"
+            >
+              <div
+                class="ant-pagination-options-quick-jumper"
+              >
+                跳至
+                <input
+                  type="text"
+                  value="1"
+                />
+                页
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+          <button
+            class="ant-pagination-quick-jumper-button"
+          >
+            确定
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -9303,45 +9456,54 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-disabled ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-disabled ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -9892,77 +10054,86 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             </div>
           </div>
         </div>
-        <ul
-          class="ant-pagination ant-table-pagination"
-          unselectable="unselectable"
+        <div
+          class="ant-table-pagination ant-pagination-wrapper"
         >
-          <li
-            class="ant-pagination-disabled ant-pagination-prev"
-            title="上一页"
+          <ul
+            class="ant-pagination "
+            unselectable="unselectable"
           >
-            <a />
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-            title="1"
-          >
-            <a>
-              1
-            </a>
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-2"
-            title="2"
-          >
-            <a>
-              2
-            </a>
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-3"
-            title="3"
-          >
-            <a>
-              3
-            </a>
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-4"
-            title="4"
-          >
-            <a>
-              4
-            </a>
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-5"
-            title="5"
-          >
-            <a>
-              5
-            </a>
-          </li>
-          <li
-            class=" ant-pagination-next"
-            title="下一页"
-          >
-            <a />
-          </li>
-          <div
-            class="ant-pagination-options"
-          >
-            <div
-              class="ant-pagination-options-quick-jumper"
+            <li
+              class="ant-pagination-disabled ant-pagination-prev"
+              title="上一页"
             >
-              跳至
-              <input
-                type="text"
-                value="1"
-              />
-              页
+              <a />
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              title="1"
+            >
+              <a>
+                1
+              </a>
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-2"
+              title="2"
+            >
+              <a>
+                2
+              </a>
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-3"
+              title="3"
+            >
+              <a>
+                3
+              </a>
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-4"
+              title="4"
+            >
+              <a>
+                4
+              </a>
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-5"
+              title="5"
+            >
+              <a>
+                5
+              </a>
+            </li>
+            <li
+              class=" ant-pagination-next"
+              title="下一页"
+            >
+              <a />
+            </li>
+            <div
+              class="ant-pagination-options"
+            >
+              <div
+                class="ant-pagination-options-quick-jumper"
+              >
+                跳至
+                <input
+                  type="text"
+                  value="1"
+                />
+                页
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+          <button
+            class="ant-pagination-quick-jumper-button"
+          >
+            确定
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -10504,77 +10675,86 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           </div>
         </div>
       </div>
-      <ul
-        class="ant-pagination ant-table-pagination"
-        unselectable="unselectable"
+      <div
+        class="ant-table-pagination ant-pagination-wrapper"
       >
-        <li
-          class="ant-pagination-disabled ant-pagination-prev"
-          title="上一页"
+        <ul
+          class="ant-pagination "
+          unselectable="unselectable"
         >
-          <a />
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-          title="1"
-        >
-          <a>
-            1
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-2"
-          title="2"
-        >
-          <a>
-            2
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-3"
-          title="3"
-        >
-          <a>
-            3
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-4"
-          title="4"
-        >
-          <a>
-            4
-          </a>
-        </li>
-        <li
-          class="ant-pagination-item ant-pagination-item-5"
-          title="5"
-        >
-          <a>
-            5
-          </a>
-        </li>
-        <li
-          class=" ant-pagination-next"
-          title="下一页"
-        >
-          <a />
-        </li>
-        <div
-          class="ant-pagination-options"
-        >
-          <div
-            class="ant-pagination-options-quick-jumper"
+          <li
+            class="ant-pagination-disabled ant-pagination-prev"
+            title="上一页"
           >
-            跳至
-            <input
-              type="text"
-              value="1"
-            />
-            页
+            <a />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            title="1"
+          >
+            <a>
+              1
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-2"
+            title="2"
+          >
+            <a>
+              2
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-3"
+            title="3"
+          >
+            <a>
+              3
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-4"
+            title="4"
+          >
+            <a>
+              4
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-5"
+            title="5"
+          >
+            <a>
+              5
+            </a>
+          </li>
+          <li
+            class=" ant-pagination-next"
+            title="下一页"
+          >
+            <a />
+          </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
           </div>
-        </div>
-      </ul>
+        </ul>
+        <button
+          class="ant-pagination-quick-jumper-button"
+        >
+          确定
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -10715,45 +10895,54 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <ul
-          class="ant-pagination ant-table-pagination mini"
-          unselectable="unselectable"
+        <div
+          class="ant-table-pagination ant-pagination-wrapper"
         >
-          <li
-            class="ant-pagination-disabled ant-pagination-prev"
-            title="上一页"
+          <ul
+            class="ant-pagination mini"
+            unselectable="unselectable"
           >
-            <a />
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-            title="1"
-          >
-            <a>
-              1
-            </a>
-          </li>
-          <li
-            class="ant-pagination-disabled ant-pagination-next"
-            title="下一页"
-          >
-            <a />
-          </li>
-          <div
-            class="ant-pagination-options"
-          >
-            <div
-              class="ant-pagination-options-quick-jumper"
+            <li
+              class="ant-pagination-disabled ant-pagination-prev"
+              title="上一页"
             >
-              跳至
-              <input
-                type="text"
-                value="1"
-              />
-              页
+              <a />
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              title="1"
+            >
+              <a>
+                1
+              </a>
+            </li>
+            <li
+              class="ant-pagination-disabled ant-pagination-next"
+              title="下一页"
+            >
+              <a />
+            </li>
+            <div
+              class="ant-pagination-options"
+            >
+              <div
+                class="ant-pagination-options-quick-jumper"
+              >
+                跳至
+                <input
+                  type="text"
+                  value="1"
+                />
+                页
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+          <button
+            class="ant-pagination-quick-jumper-button mini"
+          >
+            确定
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -10890,45 +11079,54 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <ul
-          class="ant-pagination ant-table-pagination mini"
-          unselectable="unselectable"
+        <div
+          class="ant-table-pagination ant-pagination-wrapper"
         >
-          <li
-            class="ant-pagination-disabled ant-pagination-prev"
-            title="上一页"
+          <ul
+            class="ant-pagination mini"
+            unselectable="unselectable"
           >
-            <a />
-          </li>
-          <li
-            class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-            title="1"
-          >
-            <a>
-              1
-            </a>
-          </li>
-          <li
-            class="ant-pagination-disabled ant-pagination-next"
-            title="下一页"
-          >
-            <a />
-          </li>
-          <div
-            class="ant-pagination-options"
-          >
-            <div
-              class="ant-pagination-options-quick-jumper"
+            <li
+              class="ant-pagination-disabled ant-pagination-prev"
+              title="上一页"
             >
-              跳至
-              <input
-                type="text"
-                value="1"
-              />
-              页
+              <a />
+            </li>
+            <li
+              class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              title="1"
+            >
+              <a>
+                1
+              </a>
+            </li>
+            <li
+              class="ant-pagination-disabled ant-pagination-next"
+              title="下一页"
+            >
+              <a />
+            </li>
+            <div
+              class="ant-pagination-options"
+            >
+              <div
+                class="ant-pagination-options-quick-jumper"
+              >
+                跳至
+                <input
+                  type="text"
+                  value="1"
+                />
+                页
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+          <button
+            class="ant-pagination-quick-jumper-button mini"
+          >
+            确定
+          </button>
+        </div>
       </div>
     </div>
   </div>
