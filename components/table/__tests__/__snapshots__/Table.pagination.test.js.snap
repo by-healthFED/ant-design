@@ -104,6 +104,20 @@ exports[`Table.pagination renders pagination correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>

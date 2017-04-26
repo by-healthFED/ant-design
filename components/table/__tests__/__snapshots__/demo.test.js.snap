@@ -372,6 +372,20 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -555,6 +569,20 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -819,6 +847,20 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -1012,6 +1054,20 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -2348,6 +2404,20 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
           >
             <a />
           </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
+          </div>
         </ul>
       </div>
     </div>
@@ -2546,6 +2616,20 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
           >
             <a />
           </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
+          </div>
         </ul>
       </div>
     </div>
@@ -2701,6 +2785,20 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -2914,6 +3012,20 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -3466,6 +3578,20 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -3916,6 +4042,20 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -5283,6 +5423,20 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -6559,6 +6713,20 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -6589,30 +6757,26 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             >
               <table
                 class="ant-table-fixed"
-                style="width:1010px;"
+                style="width:130%;"
               >
                 <colgroup>
                   <col
                     style="width:100px;min-width:100px;"
                   />
                   <col
+                    style="width:200px;min-width:200px;"
+                  />
+                  <col
+                    style="width:200px;min-width:200px;"
+                  />
+                  <col
                     style="width:100px;min-width:100px;"
                   />
                   <col
-                    style="width:200px;min-width:200px;"
-                  />
-                  <col
-                    style="width:50px;min-width:50px;"
-                  />
-                  <col
                     style="width:100px;min-width:100px;"
                   />
-                  <col
-                    style="width:200px;min-width:200px;"
-                  />
-                  <col
-                    style="width:200px;min-width:200px;"
-                  />
+                  <col />
+                  <col />
                   <col
                     style="width:60px;min-width:60px;"
                   />
@@ -6755,30 +6919,26 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             >
               <table
                 class="ant-table-fixed"
-                style="width:1010px;"
+                style="width:130%;"
               >
                 <colgroup>
                   <col
                     style="width:100px;min-width:100px;"
                   />
                   <col
+                    style="width:200px;min-width:200px;"
+                  />
+                  <col
+                    style="width:200px;min-width:200px;"
+                  />
+                  <col
                     style="width:100px;min-width:100px;"
                   />
                   <col
-                    style="width:200px;min-width:200px;"
-                  />
-                  <col
-                    style="width:50px;min-width:50px;"
-                  />
-                  <col
                     style="width:100px;min-width:100px;"
                   />
-                  <col
-                    style="width:200px;min-width:200px;"
-                  />
-                  <col
-                    style="width:200px;min-width:200px;"
-                  />
+                  <col />
+                  <col />
                   <col
                     style="width:60px;min-width:60px;"
                   />
@@ -7672,6 +7832,20 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -7924,6 +8098,20 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -8222,6 +8410,20 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -8504,6 +8706,20 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -8785,6 +9001,20 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
           >
             <a />
           </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
+          </div>
         </ul>
       </div>
     </div>
@@ -9097,6 +9327,20 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -9704,6 +9948,20 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
           >
             <a />
           </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
+          </div>
         </ul>
       </div>
     </div>
@@ -10302,6 +10560,20 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
         >
           <a />
         </li>
+        <div
+          class="ant-pagination-options"
+        >
+          <div
+            class="ant-pagination-options-quick-jumper"
+          >
+            跳至
+            <input
+              type="text"
+              value="1"
+            />
+            页
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -10467,6 +10739,20 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           >
             <a />
           </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
+          </div>
         </ul>
       </div>
     </div>
@@ -10628,6 +10914,20 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           >
             <a />
           </li>
+          <div
+            class="ant-pagination-options"
+          >
+            <div
+              class="ant-pagination-options-quick-jumper"
+            >
+              跳至
+              <input
+                type="text"
+                value="1"
+              />
+              页
+            </div>
+          </div>
         </ul>
       </div>
     </div>
