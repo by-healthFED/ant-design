@@ -2,7 +2,7 @@ const path = require('path');
 const CSSSplitWebpackPlugin = require('css-split-webpack-plugin').default;
 
 module.exports = {
-  port: 3000,
+  port: 8001,
   source: {
     components: './components',
     docs: './docs',
