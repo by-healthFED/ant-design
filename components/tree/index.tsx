@@ -89,7 +89,7 @@ export default class Tree extends React.Component<TreeProps, any> {
   static TreeNode = TreeNode;
 
   static defaultProps = {
-    prefixCls: 'ant-tree',
+    prefixCls: 'rc-tree',
     checkable: false,
     showIcon: false,
     openAnimation: animation,
@@ -103,6 +103,7 @@ export default class Tree extends React.Component<TreeProps, any> {
       [`${prefixCls}-show-line`]: !!showLine,
     }, className);
     return (
+
       <RcTree
         {...props}
         className={classString}
