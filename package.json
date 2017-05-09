@@ -27,7 +27,6 @@
   },
   "main": "lib/index.js",
   "files": [
-    "dist",
     "lib"
   ],
   "typings": "lib/index.d.ts",

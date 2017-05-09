@@ -103,7 +103,6 @@ export default class Tree extends React.Component<TreeProps, any> {
       [`${prefixCls}-show-line`]: !!showLine,
     }, className);
     return (
-
       <RcTree
         {...props}
         className={classString}
