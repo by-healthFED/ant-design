@@ -1,0 +1,1 @@
+webpackJsonp([84,212],{1168:function(e,t){e.exports={content:["article"],meta:{order:2,title:"by-health",filename:"docs/spec/byhealth.md"},toc:["ul"]}}});
