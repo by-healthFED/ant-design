@@ -45,6 +45,7 @@ export default class AutoComplete extends React.Component<AutoCompleteProps, any
     optionLabelProp: 'children',
     choiceTransitionName: 'zoom',
     showSearch: false,
+    filterOption: false,
   };
 
   getInputElement = () => {
