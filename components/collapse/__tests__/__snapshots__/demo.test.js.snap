@@ -9,7 +9,7 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -23,7 +23,7 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -37,7 +37,7 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -58,7 +58,7 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -88,7 +88,7 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -102,7 +102,7 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -123,7 +123,7 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -153,7 +153,7 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -167,7 +167,7 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -189,7 +189,7 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -220,7 +220,7 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -235,7 +235,7 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -256,7 +256,7 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -270,7 +270,7 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i
@@ -284,7 +284,7 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header "
+      class="ant-collapse-header"
       role="tab"
     >
       <i

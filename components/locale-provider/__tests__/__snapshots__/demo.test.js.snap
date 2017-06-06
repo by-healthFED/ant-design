@@ -66,6 +66,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
             title="Previous Page"
           >
@@ -112,6 +113,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             </a>
           </li>
           <li
+            aria-disabled="false"
             class=" ant-pagination-next"
             title="Next Page"
           >
@@ -1544,6 +1546,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       unselectable="unselectable"
     >
       <li
+        aria-disabled="true"
         class="ant-pagination-disabled ant-pagination-prev"
         title="Previous Page"
       >
@@ -1590,6 +1593,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
         </a>
       </li>
       <li
+        aria-disabled="false"
         class=" ant-pagination-next"
         title="Next Page"
       >

@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import RcCheckbox from 'rc-checkbox';
 import shallowEqual from 'shallowequal';
@@ -15,6 +16,7 @@ export interface AbstractCheckboxProps {
   onMouseEnter?: React.MouseEventHandler<any>;
   onMouseLeave?: React.MouseEventHandler<any>;
   value?: any;
+  name?: string;
 }
 
 export interface CheckboxProps extends AbstractCheckboxProps {

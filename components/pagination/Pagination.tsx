@@ -38,9 +38,9 @@ abstract class Pagination extends React.Component<PaginationProps, any> {
 
   private pagination;
 
-  abstract getLocale()
+  abstract getLocale();
 
-  _handleQuickJumper() {
+  _handleQuickJumper = () => {
     let value;
     try {
       value = parseInt(ReactDOM.findDOMNode(this.pagination).getElementsByTagName('input')[0].value, 10);
@@ -60,7 +60,7 @@ abstract class Pagination extends React.Component<PaginationProps, any> {
     const quickJumperButton = (
       <button
         className={classNames(`${prefixCls}-quick-jumper-button`, { mini: isSmall })}
-        onClick={this._handleQuickJumper.bind(this)}
+        onClick={this._handleQuickJumper}
       >
       {quickJumper}
       </button>

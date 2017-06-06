@@ -80,6 +80,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
             title="上一页"
           >
@@ -102,6 +103,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
             </a>
           </li>
           <li
+            aria-disabled="false"
             class=" ant-pagination-next"
             title="下一页"
           >

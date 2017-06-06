@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'bisheng/router';
 import { Row, Col, Menu, Icon } from 'antd';
 import classNames from 'classnames';
@@ -229,7 +230,8 @@ export default class MainContent extends React.Component {
           <Col
             lg={{ span: 20, offset: 4 }}
             md={{ span: 18, offset: 6 }}
-            sm={24} xs={24}
+            sm={24}
+            xs={24}
           >
             <section className="prev-next-nav">
               {

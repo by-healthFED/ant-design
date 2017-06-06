@@ -523,6 +523,123 @@ exports[`renders ./components/form/demo/dynamic-form-item.md correctly 1`] = `
 </form>
 `;
 
+exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
+<div>
+  <div
+    class="ant-row ant-form-item"
+  >
+    <div
+      class="ant-col-4 ant-form-item-label"
+    >
+      <label
+        class="ant-form-item-required"
+        for="username"
+        title="Name"
+      >
+        Name
+      </label>
+    </div>
+    <div
+      class="ant-col-8 ant-form-item-control-wrapper"
+    >
+      <div
+        class="ant-form-item-control "
+      >
+        <input
+          class="ant-input ant-input-lg"
+          data-__meta="[object Object]"
+          id="username"
+          placeholder="Please input your name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row ant-form-item"
+  >
+    <div
+      class="ant-col-4 ant-form-item-label"
+    >
+      <label
+        class=""
+        for="nickname"
+        title="Nickname"
+      >
+        Nickname
+      </label>
+    </div>
+    <div
+      class="ant-col-8 ant-form-item-control-wrapper"
+    >
+      <div
+        class="ant-form-item-control "
+      >
+        <input
+          class="ant-input ant-input-lg"
+          data-__meta="[object Object]"
+          id="nickname"
+          placeholder="Please input your nickname"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row ant-form-item"
+  >
+    <div
+      class="ant-col-8 ant-col-offset-4 ant-form-item-control-wrapper"
+    >
+      <div
+        class="ant-form-item-control "
+      >
+        <label
+          class="ant-checkbox-wrapper"
+        >
+          <span
+            class="ant-checkbox"
+          >
+            <input
+              class="ant-checkbox-input"
+              type="checkbox"
+            />
+            <span
+              class="ant-checkbox-inner"
+            />
+          </span>
+          <span>
+            Nickname is required
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row ant-form-item"
+  >
+    <div
+      class="ant-col-8 ant-col-offset-4 ant-form-item-control-wrapper"
+    >
+      <div
+        class="ant-form-item-control "
+      >
+        <button
+          class="ant-btn ant-btn-primary ant-btn-lg"
+          type="button"
+        >
+          <span>
+            Check
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders ./components/form/demo/form-in-modal.md correctly 1`] = `
 <div>
   <button
@@ -925,6 +1042,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
             <input
               checked=""
               class="ant-checkbox-input"
+              data-__meta="[object Object]"
               type="checkbox"
             />
             <span
@@ -1114,6 +1232,11 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
           class="ant-cascader-picker"
           tabindex="0"
         >
+          <span
+            class="ant-cascader-picker-label"
+          >
+            Zhejiang / Hangzhou / West Lake
+          </span>
           <input
             autocomplete="off"
             class="ant-input ant-cascader-input ant-input-lg"
@@ -1123,11 +1246,6 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
             type="text"
             value=""
           />
-          <span
-            class="ant-cascader-picker-label"
-          >
-            Zhejiang / Hangzhou / West Lake
-          </span>
           <i
             class="anticon anticon-cross-circle ant-cascader-picker-clear"
           />
@@ -1159,51 +1277,55 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
         class="ant-form-item-control "
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="ant-input-group-wrapper"
         >
           <span
-            class="ant-input-group-addon"
+            class="ant-input-wrapper ant-input-group"
           >
-            <div
-              class="icp-selector ant-select ant-select-enabled"
+            <span
+              class="ant-input-group-addon"
             >
               <div
-                aria-autocomplete="list"
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="ant-select-selection
-                          ant-select-selection--single"
-                role="combobox"
-                tabindex="0"
+                class="icp-selector ant-select ant-select-enabled"
               >
                 <div
-                  class="ant-select-selection__rendered"
+                  aria-autocomplete="list"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="ant-select-selection
+                            ant-select-selection--single"
+                  role="combobox"
+                  tabindex="0"
                 >
                   <div
-                    class="ant-select-selection-selected-value"
-                    style="display:block;opacity:1;"
-                    title="+86"
+                    class="ant-select-selection__rendered"
                   >
-                    +86
+                    <div
+                      class="ant-select-selection-selected-value"
+                      style="display:block;opacity:1;"
+                      title="+86"
+                    >
+                      +86
+                    </div>
                   </div>
+                  <span
+                    class="ant-select-arrow"
+                    style="user-select:none;-webkit-user-select:none;"
+                    unselectable="unselectable"
+                  >
+                    <b />
+                  </span>
                 </div>
-                <span
-                  class="ant-select-arrow"
-                  style="user-select:none;-webkit-user-select:none;"
-                  unselectable="unselectable"
-                >
-                  <b />
-                </span>
               </div>
-            </div>
+            </span>
+            <input
+              class="ant-input ant-input-lg"
+              data-__meta="[object Object]"
+              id="phone"
+              type="text"
+              value=""
+            />
           </span>
-          <input
-            class="ant-input ant-input-lg"
-            data-__meta="[object Object]"
-            id="phone"
-            type="text"
-            value=""
-          />
         </span>
       </div>
     </div>
@@ -1358,6 +1480,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
           >
             <input
               class="ant-checkbox-input"
+              data-__meta="[object Object]"
               type="checkbox"
             />
             <span
@@ -1860,7 +1983,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
             class="ant-input-number-handler-wrap"
           >
             <span
+              aria-disabled="false"
+              aria-label="Increase Value"
               class="ant-input-number-handler ant-input-number-handler-up "
+              role="button"
               unselectable="unselectable"
             >
               <span
@@ -1869,7 +1995,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               />
             </span>
             <span
+              aria-disabled="false"
+              aria-label="Decrease Value"
               class="ant-input-number-handler ant-input-number-handler-down "
+              role="button"
               unselectable="unselectable"
             >
               <span
@@ -1879,7 +2008,11 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
             </span>
           </div>
           <div
+            aria-valuemax="10"
+            aria-valuemin="1"
+            aria-valuenow="3"
             class="ant-input-number-input-wrap"
+            role="spinbutton"
           >
             <input
               autocomplete="off"
@@ -2619,7 +2752,10 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
             class="ant-input-number-handler-wrap"
           >
             <span
+              aria-disabled="false"
+              aria-label="Increase Value"
               class="ant-input-number-handler ant-input-number-handler-up "
+              role="button"
               unselectable="unselectable"
             >
               <span
@@ -2628,7 +2764,10 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
               />
             </span>
             <span
+              aria-disabled="false"
+              aria-label="Decrease Value"
               class="ant-input-number-handler ant-input-number-handler-down "
+              role="button"
               unselectable="unselectable"
             >
               <span
@@ -2638,7 +2777,11 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
             </span>
           </div>
           <div
+            aria-valuemax="12"
+            aria-valuemin="8"
+            aria-valuenow="11"
             class="ant-input-number-input-wrap"
+            role="spinbutton"
           >
             <input
               autocomplete="off"
