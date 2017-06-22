@@ -73,7 +73,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-table-pagination ant-pagination-wrapper"
+        class="my-page ant-table-pagination ant-pagination-wrapper"
       >
         <ul
           class="ant-pagination "

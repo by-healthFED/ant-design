@@ -513,6 +513,7 @@ exports[`renders ./components/grid/demo/playground.md correctly 1`] = `
         <div
           class="ant-slider-handle"
           style="left:20%;"
+          value="1"
         />
         <div
           class="ant-slider-mark"
@@ -605,6 +606,7 @@ exports[`renders ./components/grid/demo/playground.md correctly 1`] = `
         <div
           class="ant-slider-handle"
           style="left:40%;"
+          value="2"
         />
         <div
           class="ant-slider-mark"
