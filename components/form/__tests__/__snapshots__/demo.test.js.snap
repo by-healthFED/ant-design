@@ -1204,7 +1204,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
           Forgot password
         </a>
         <button
-          class="ant-btn ant-btn-primary ant-btn-lg login-form-button"
+          class="ant-btn login-form-button ant-btn-primary ant-btn-lg"
           type="submit"
         >
           <span>
@@ -1525,7 +1525,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                     class="ant-select-search__field__wrap"
                   >
                     <input
-                      class="ant-input ant-input ant-select-search__field"
+                      class="ant-input ant-select-search__field"
                       type="text"
                       value=""
                     />
@@ -2163,6 +2163,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
             <input
               autocomplete="off"
               class="ant-input-number-input"
+              id="input-number"
               max="10"
               min="1"
               value="3"
@@ -2269,9 +2270,13 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
             />
           </div>
           <div
+            aria-disabled="false"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="0"
             class="ant-slider-handle"
+            role="slider"
             style="left:0%;"
-            value="0"
           />
           <div
             class="ant-slider-mark"

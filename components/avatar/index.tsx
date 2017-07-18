@@ -31,6 +31,7 @@ export default class Avatar extends React.Component<AvatarProps, any> {
     super(props);
     this.state = {
       scale: 1,
+      isImgExist: true,
     };
   }
 
@@ -63,6 +64,8 @@ export default class Avatar extends React.Component<AvatarProps, any> {
     }
   }
 
+  handleImgLoadError = () => this.setState({ isImgExist: false });
+
   render() {
     const {
       prefixCls, shape, size, src, icon, className, ...others,
@@ -80,8 +83,13 @@ export default class Avatar extends React.Component<AvatarProps, any> {
     });
 
     let children = this.props.children;
-    if (src) {
-      children = <img src={src} />;
+    if (src && this.state.isImgExist) {
+      children = (
+        <img
+          src={src}
+          onError={this.handleImgLoadError}
+        />
+      );
     } else if (icon) {
       children = <Icon type={icon} />;
     } else {
@@ -95,20 +103,24 @@ export default class Avatar extends React.Component<AvatarProps, any> {
           display: 'inline-block',
           left: `calc(50% - ${Math.round(childrenNode.offsetWidth / 2)}px)`,
         };
-        children = <span
-          className={`${prefixCls}-string`}
-          ref={span => this.avatarChildren = span}
-          style={childrenStyle}
-        >
-          {children}
-        </span>;
+        children = (
+          <span
+            className={`${prefixCls}-string`}
+            ref={span => this.avatarChildren = span}
+            style={childrenStyle}
+          >
+            {children}
+          </span>
+        );
       } else {
-        children = <span
-          className={`${prefixCls}-string`}
-          ref={span => this.avatarChildren = span}
-        >
-          {children}
-        </span>;
+        children = (
+          <span
+            className={`${prefixCls}-string`}
+            ref={span => this.avatarChildren = span}
+          >
+            {children}
+          </span>
+        );
       }
     }
     return (

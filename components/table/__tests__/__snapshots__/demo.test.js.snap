@@ -358,12 +358,14 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -373,6 +375,7 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -386,7 +389,7 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -566,12 +569,14 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -581,6 +586,7 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -594,7 +600,7 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -855,12 +861,14 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -870,6 +878,7 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -883,7 +892,7 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -1073,12 +1082,14 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -1088,6 +1099,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -1101,7 +1113,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -2434,12 +2446,14 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-prev"
+              tabindex="0"
               title="上一页"
             >
               <a />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              tabindex="0"
               title="1"
             >
               <a>
@@ -2449,6 +2463,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-next"
+              tabindex="0"
               title="下一页"
             >
               <a />
@@ -2462,7 +2477,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                 跳至
                 <input
                   type="text"
-                  value="1"
+                  value=""
                 />
                 页
               </div>
@@ -2657,12 +2672,14 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-prev"
+              tabindex="0"
               title="上一页"
             >
               <a />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              tabindex="0"
               title="1"
             >
               <a>
@@ -2672,6 +2689,7 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-next"
+              tabindex="0"
               title="下一页"
             >
               <a />
@@ -2685,7 +2703,7 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
                 跳至
                 <input
                   type="text"
-                  value="1"
+                  value=""
                 />
                 页
               </div>
@@ -2837,12 +2855,14 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -2852,6 +2872,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -2865,7 +2886,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -3075,12 +3096,14 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -3090,6 +3113,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -3103,7 +3127,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -3652,12 +3676,14 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -3667,6 +3693,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -3680,7 +3707,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -4127,12 +4154,14 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -4142,6 +4171,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -4155,7 +4185,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -5473,12 +5503,14 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -5487,6 +5519,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-2"
+            tabindex="0"
             title="2"
           >
             <a>
@@ -5495,6 +5528,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-3"
+            tabindex="0"
             title="3"
           >
             <a>
@@ -5503,6 +5537,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-4"
+            tabindex="0"
             title="4"
           >
             <a>
@@ -5511,6 +5546,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+            tabindex="0"
             title="5"
           >
             <a>
@@ -5519,12 +5555,14 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-jump-next"
+            tabindex="0"
             title="向后 5 页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-10"
+            tabindex="0"
             title="10"
           >
             <a>
@@ -5534,6 +5572,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           <li
             aria-disabled="false"
             class=" ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -5547,7 +5586,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -6812,12 +6851,14 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -6826,6 +6867,7 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-2"
+            tabindex="0"
             title="2"
           >
             <a>
@@ -6835,6 +6877,7 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
           <li
             aria-disabled="false"
             class=" ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -6848,7 +6891,7 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -7904,12 +7947,14 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -7918,6 +7963,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-2"
+            tabindex="0"
             title="2"
           >
             <a>
@@ -7926,6 +7972,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-3"
+            tabindex="0"
             title="3"
           >
             <a>
@@ -7934,6 +7981,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-4"
+            tabindex="0"
             title="4"
           >
             <a>
@@ -7942,6 +7990,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+            tabindex="0"
             title="5"
           >
             <a>
@@ -7950,12 +7999,14 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           </li>
           <li
             class="ant-pagination-jump-next"
+            tabindex="0"
             title="向后 5 页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-10"
+            tabindex="0"
             title="10"
           >
             <a>
@@ -7965,6 +8016,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           <li
             aria-disabled="false"
             class=" ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -7978,7 +8030,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -8227,12 +8279,14 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -8242,6 +8296,7 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -8255,7 +8310,7 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -8550,12 +8605,14 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -8565,6 +8622,7 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -8578,7 +8636,7 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -8857,12 +8915,14 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -8872,6 +8932,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -8885,7 +8946,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -9163,12 +9224,14 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-prev"
+              tabindex="0"
               title="上一页"
             >
               <a />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              tabindex="0"
               title="1"
             >
               <a>
@@ -9178,6 +9241,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-next"
+              tabindex="0"
               title="下一页"
             >
               <a />
@@ -9191,7 +9255,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                 跳至
                 <input
                   type="text"
-                  value="1"
+                  value=""
                 />
                 页
               </div>
@@ -9500,12 +9564,14 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -9515,6 +9581,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -9528,7 +9595,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -10100,12 +10167,14 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-prev"
+              tabindex="0"
               title="上一页"
             >
               <a />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              tabindex="0"
               title="1"
             >
               <a>
@@ -10114,6 +10183,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-2"
+              tabindex="0"
               title="2"
             >
               <a>
@@ -10122,6 +10192,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-3"
+              tabindex="0"
               title="3"
             >
               <a>
@@ -10130,6 +10201,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-4"
+              tabindex="0"
               title="4"
             >
               <a>
@@ -10138,6 +10210,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-5"
+              tabindex="0"
               title="5"
             >
               <a>
@@ -10147,6 +10220,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             <li
               aria-disabled="false"
               class=" ant-pagination-next"
+              tabindex="0"
               title="下一页"
             >
               <a />
@@ -10160,7 +10234,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                 跳至
                 <input
                   type="text"
-                  value="1"
+                  value=""
                 />
                 页
               </div>
@@ -10723,12 +10797,14 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
+            tabindex="0"
             title="上一页"
           >
             <a />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+            tabindex="0"
             title="1"
           >
             <a>
@@ -10737,6 +10813,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-2"
+            tabindex="0"
             title="2"
           >
             <a>
@@ -10745,6 +10822,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-3"
+            tabindex="0"
             title="3"
           >
             <a>
@@ -10753,6 +10831,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-4"
+            tabindex="0"
             title="4"
           >
             <a>
@@ -10761,6 +10840,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-5"
+            tabindex="0"
             title="5"
           >
             <a>
@@ -10770,6 +10850,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           <li
             aria-disabled="false"
             class=" ant-pagination-next"
+            tabindex="0"
             title="下一页"
           >
             <a />
@@ -10783,7 +10864,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
               跳至
               <input
                 type="text"
-                value="1"
+                value=""
               />
               页
             </div>
@@ -10945,12 +11026,14 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-prev"
+              tabindex="0"
               title="上一页"
             >
               <a />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              tabindex="0"
               title="1"
             >
               <a>
@@ -10960,6 +11043,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-next"
+              tabindex="0"
               title="下一页"
             >
               <a />
@@ -10973,7 +11057,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
                 跳至
                 <input
                   type="text"
-                  value="1"
+                  value=""
                 />
                 页
               </div>
@@ -11131,12 +11215,14 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-prev"
+              tabindex="0"
               title="上一页"
             >
               <a />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+              tabindex="0"
               title="1"
             >
               <a>
@@ -11146,6 +11232,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
             <li
               aria-disabled="true"
               class="ant-pagination-disabled ant-pagination-next"
+              tabindex="0"
               title="下一页"
             >
               <a />
@@ -11159,7 +11246,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
                 跳至
                 <input
                   type="text"
-                  value="1"
+                  value=""
                 />
                 页
               </div>

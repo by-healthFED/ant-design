@@ -17,6 +17,7 @@ export interface AbstractCheckboxProps {
   onMouseLeave?: React.MouseEventHandler<any>;
   value?: any;
   name?: string;
+  children?: any;
 }
 
 export interface CheckboxProps extends AbstractCheckboxProps {

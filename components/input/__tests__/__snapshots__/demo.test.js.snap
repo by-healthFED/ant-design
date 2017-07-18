@@ -152,7 +152,6 @@ exports[`renders ./components/input/demo/autosize-textarea.md correctly 1`] = `
   <textarea
     class="ant-input"
     placeholder="Autosize height based on content lines"
-    type="textarea"
   />
   <div
     style="margin:24px 0;"
@@ -160,7 +159,6 @@ exports[`renders ./components/input/demo/autosize-textarea.md correctly 1`] = `
   <textarea
     class="ant-input"
     placeholder="Autosize height with minimum and maximum number of lines"
-    type="textarea"
   />
 </div>
 `;
@@ -331,16 +329,16 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         </span>
       </div>
       <div
-        aria-valuemax="Infinity"
-        aria-valuemin="-Infinity"
+        aria-valuemax="9007199254740991"
+        aria-valuemin="-9007199254740991"
         class="ant-input-number-input-wrap"
         role="spinbutton"
       >
         <input
           autocomplete="off"
           class="ant-input-number-input"
-          max="Infinity"
-          min="-Infinity"
+          max="9007199254740991"
+          min="-9007199254740991"
           value=""
         />
       </div>
@@ -562,7 +560,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
                 class="ant-select-search__field__wrap"
               >
                 <input
-                  class="ant-input ant-input ant-select-search__field"
+                  class="ant-input ant-select-search__field"
                   type="text"
                   value=""
                 />
@@ -668,11 +666,11 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
 <span
-  class="ant-input-affix-wrapper"
+  class="ant-input-search ant-input-affix-wrapper"
   style="width:200px;"
 >
   <input
-    class="ant-input ant-input-search"
+    class="ant-input"
     placeholder="input search text"
     type="text"
   />
@@ -712,7 +710,6 @@ exports[`renders ./components/input/demo/textarea.md correctly 1`] = `
 <textarea
   class="ant-input"
   rows="4"
-  type="textarea"
 />
 `;
 

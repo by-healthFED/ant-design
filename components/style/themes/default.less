@@ -212,7 +212,7 @@
 // Form
 // ---
 @label-required-color        : @highlight-color;
-@label-color                 : @text-color;
+@label-color                 : @heading-color;
 @form-item-margin-bottom     : 24px;
 @form-item-trailing-colon    : true;
 
@@ -225,7 +225,7 @@
 @input-padding-vertical-base : 4px;
 @input-padding-vertical-sm   : 1px;
 @input-padding-vertical-lg   : 6px;
-@input-placeholder-color     : #ccc;
+@input-placeholder-color     : @disabled-color;
 @input-color                 : @text-color;
 @input-border-color          : @border-color-base;
 @input-bg                    : #fff;
@@ -290,7 +290,9 @@
 // Table
 // --
 @table-header-bg: @background-color-base;
+@table-header-sort-bg: @background-color-active;
 @table-row-hover-bg: @primary-1;
+@table-selected-row-bg: #fafafa;
 @table-padding-vertical: 16px;
 @table-padding-horizontal: 8px;
 
@@ -315,6 +317,7 @@
 // ---
 @badge-height: 20px;
 @badge-dot-size: 8px;
+@badge-font-size: @font-size-base;
 
 // Rate
 // ---
@@ -330,6 +333,7 @@
 // Tabs
 // ---
 @tabs-card-head-background: #f9f9f9;
+@tabs-title-font-size: @font-size-lg;
 
 // BackTop
 @back-top-color: #fff;
