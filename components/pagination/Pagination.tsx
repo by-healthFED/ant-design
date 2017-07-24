@@ -42,16 +42,17 @@ abstract class Pagination extends React.Component<PaginationProps, any> {
   abstract getLocale();
 
   _handleQuickJumper = () => {
-    let value;
-    try {
-      value = parseInt(ReactDOM.findDOMNode(this.pagination).getElementsByTagName('input')[0].value, 10);
-    } catch (error) {
-      value = undefined;
+    if (process.env.NODE_ENV !== 'production') {
+      if (this.pagination.handleChange === undefined) {
+        throw new Error('The internal interface has changed, please update the version.');
+      }
     }
 
-    if (value !== undefined) {
-      this.pagination._handleChange(value);
-    }
+    const { prefixCls } = this.props;
+    const domEl = ReactDOM.findDOMNode(this.pagination)
+      .querySelector(`.${prefixCls}-options-quick-jumper input`) as HTMLInputElement;
+    const value = parseInt(domEl.value, 10);
+    this.pagination.handleChange(value);
   }
 
   render() {
