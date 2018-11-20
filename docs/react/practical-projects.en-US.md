@@ -3,7 +3,7 @@ order: 3
 title: Real project with dva
 ---
 
-[dva](https://github.com/dvajs/dva) is a React and redux based, lightweight and elm-style framework, which supports side effects, hot module replacement, dynamic on demand, react-native, SSR. And it has been widely used in production environment.
+[dva](https://github.com/dvajs/dva) is a React and redux based, lightweight and elm-style framework, which supports side effects, hot module replacement, dynamic on demand, react-native, and SSR. It has been widely used in production environments.
 
 This article will guide you to create a simple application from zero using dva and antd.
 
@@ -13,12 +13,12 @@ Include the following:
 
 ## Install dva-cli
 
-Install dva-cli with npm, and make sure the version is larger than `0.7.0`.
+Install dva-cli with npm, and make sure the version is later than `0.8.1`.
 
 ```bash
 $ npm install dva-cli -g
 $ dva -v
-0.7.0
+0.8.1
 ```
 
 ## Create New App
@@ -94,7 +94,7 @@ Add routing information to router, edit `router.js`:
 ```diff
 + import Products from './routes/Products';
 ...
-+ <Route path="/products" component={Products} />
++ <Route path="/products" exact component={Products} />
 ```
 
 Then open http://localhost:8000/#/products in your browser, you should be able to see the `<h2>` tag defined before.
@@ -146,7 +146,7 @@ export default ProductList;
 
 After completing the UI, we will begin processing the data and logic.
 
-dva manages the domain model with `model`, with reducers for synchronous state update, effects for async logic, and subscriptions for data source subscribe.
+dva manages the domain model with `model`, with reducers for synchronous state updates, effects for async logic, and subscriptions for data source subscribe.
 
 Let's create a model `models/products.js` by typing:
 
@@ -166,8 +166,8 @@ export default {
 
 In this model:
 
-- `namespace` represent the key on global state
-- `state` is the initial value, here is an empty array
+- `namespace` represents the key on global state
+- `state` is the initial value, here it is an empty array
 - `reducers` is equivalent to a reducer in redux, accepting an action, and update state simultaneously
 
 Then don't forget to require it in `index.js`:
@@ -179,7 +179,7 @@ Then don't forget to require it in `index.js`:
 
 ## Connect
 
-So far, we have completed a separate model and component. Then how do we connect them together?
+So far, we have completed a separate model and component. How do we connect them together?
 
 dva provides a `connect` method. If you are familiar with redux, this `connect` is from react-router.
 
@@ -271,7 +271,7 @@ We have completed a simple application, but you may still have lots of questions
 You can:
 
 - Visit [dva official website](https://github.com/dvajs/dva).
-- Be familiar with the [8 Conpects](https://github.com/dvajs/dva/blob/master/docs/Concepts.md), and understand how they are connected together
+- Be familiar with the [8 Concepts](https://github.com/dvajs/dva/blob/master/docs/Concepts.md), and understand how they are connected together
 - Know all [dva APIs](https://github.com/dvajs/dva/blob/master/docs/API.md)
 - Checkout [dva knowledgemap](https://github.com/dvajs/dva-knowledgemap), including all the basic knowledge with ES6, React, dva
 - Checkout [more FAQ](https://github.com/dvajs/dva/issues?q=is%3Aissue+is%3Aclosed+label%3Afaq)

@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 title:
   zh-CN: 从数据直接生成
   en-US: Generate form tree data
@@ -41,7 +41,6 @@ class Demo extends React.Component {
     value: undefined,
   }
   onChange = (value) => {
-    console.log(arguments);
     this.setState({ value });
   }
   render() {

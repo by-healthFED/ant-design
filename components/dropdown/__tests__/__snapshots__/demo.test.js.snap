@@ -49,7 +49,6 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
     </button>
     <button
       class="ant-btn ant-dropdown-trigger ant-btn-default"
-      disabled=""
       type="button"
     >
       <i
@@ -175,15 +174,13 @@ exports[`renders ./components/dropdown/demo/sub-menu.md correctly 1`] = `
 `;
 
 exports[`renders ./components/dropdown/demo/trigger.md correctly 1`] = `
-<div>
-  <a
-    class="ant-dropdown-link ant-dropdown-trigger"
-    href="#"
-  >
-    Click me 
-    <i
-      class="anticon anticon-down"
-    />
-  </a>
-</div>
+<a
+  class="ant-dropdown-link ant-dropdown-trigger"
+  href="#"
+>
+  Click me 
+  <i
+    class="anticon anticon-down"
+  />
+</a>
 `;

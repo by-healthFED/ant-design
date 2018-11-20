@@ -1,12 +1,14 @@
 import notification from '..';
 
 describe('Notification.placement', () => {
+  afterEach(() => notification.destroy());
+
   function $$(className) {
     return document.body.querySelectorAll(className);
   }
 
   function getStyle(el, prop, getComputedStyle, style) {
-    getComputedStyle = window.getComputedStyle;
+    getComputedStyle = getComputedStyle || window.getComputedStyle;
     style = getComputedStyle ? getComputedStyle(el) : el.currentStyle;
 
     // If a css property's value is `auto`, it will return an empty string.

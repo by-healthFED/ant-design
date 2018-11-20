@@ -10,7 +10,7 @@ import { getLocaleCode } from '../_util/getLocale';
 import warning from '../_util/warning';
 
 function getShowDateFromValue(value: moment.Moment[]): moment.Moment[] | undefined {
-  const [ start, end ] = value;
+  const [start, end] = value;
   // value could be an empty array, then we should not reset showDate
   if (!start && !end) {
     return;
@@ -24,7 +24,9 @@ function formatValue(value: moment.Moment | undefined, format: string): string {
 }
 
 function pickerValueAdapter(value?: moment.Moment | moment.Moment[]): moment.Moment[] | undefined {
-  if (!value) { return; }
+  if (!value) {
+    return;
+  }
   if (Array.isArray(value)) {
     return value;
   }
@@ -97,7 +99,10 @@ export default class RangePicker extends React.Component<any, any> {
   handleChange = (value: moment.Moment[]) => {
     const props = this.props;
     if (!('value' in props)) {
-      this.setState({ value, showDate: getShowDateFromValue(value) });
+      this.setState(({ showDate }) => ({
+        value,
+        showDate: getShowDateFromValue(value) || showDate,
+      }));
     }
     props.onChange(value, [
       formatValue(value[0], props.format),
@@ -106,7 +111,9 @@ export default class RangePicker extends React.Component<any, any> {
   }
 
   handleOpenChange = (open) => {
-    this.setState({ open });
+    if (!('open' in this.props)) {
+      this.setState({ open });
+    }
 
     const { onOpenChange } = this.props;
     if (onOpenChange) {
@@ -118,9 +125,9 @@ export default class RangePicker extends React.Component<any, any> {
 
   handleHoverChange = hoverValue => this.setState({ hoverValue });
 
-  setValue(value) {
+  setValue(value, hidePanel?) {
     this.handleChange(value);
-    if (!this.props.showTime) {
+    if ((hidePanel || !this.props.showTime) && !('open' in this.props)) {
       this.setState({ open: false });
     }
   }
@@ -140,7 +147,7 @@ export default class RangePicker extends React.Component<any, any> {
       return (
         <a
           key={range}
-          onClick={() => this.setValue(value)}
+          onClick={() => this.setValue(value, true)}
           onMouseEnter={() => this.setState({ hoverValue: value })}
           onMouseLeave={this.clearHoverValue}
         >

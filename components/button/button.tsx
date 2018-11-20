@@ -35,7 +35,7 @@ function insertSpace(child: React.ReactChild, needInserted: boolean) {
 
 export type ButtonType = 'primary' | 'ghost' | 'dashed' | 'danger';
 export type ButtonShape = 'circle' | 'circle-outline';
-export type ButtonSize = 'small' | 'large';
+export type ButtonSize = 'small' | 'default' | 'large';
 
 export interface ButtonProps {
   type?: ButtonType;
@@ -61,7 +61,6 @@ export default class Button extends React.Component<ButtonProps, any> {
   static defaultProps = {
     prefixCls: 'ant-btn',
     loading: false,
-    clicked: false,
     ghost: false,
   };
 
@@ -83,6 +82,7 @@ export default class Button extends React.Component<ButtonProps, any> {
     super(props);
     this.state = {
       loading: props.loading,
+      clicked: false,
     };
   }
 
@@ -122,16 +122,9 @@ export default class Button extends React.Component<ButtonProps, any> {
     }
   }
 
-  // Handle auto focus when click button in Chrome
-  handleMouseUp = (e: React.MouseEvent<HTMLButtonElement>) => {
-    if (this.props.onMouseUp) {
-      this.props.onMouseUp(e);
-    }
-  }
-
   render() {
     const {
-      type, shape, size = '', className, htmlType, children, icon, prefixCls, ghost, ...others,
+      type, shape, size, className, htmlType, children, icon, prefixCls, ghost, ...others,
     } = this.props;
 
     const { loading, clicked } = this.state;
@@ -153,7 +146,7 @@ export default class Button extends React.Component<ButtonProps, any> {
       [`${prefixCls}-${type}`]: type,
       [`${prefixCls}-${shape}`]: shape,
       [`${prefixCls}-${sizeCls}`]: sizeCls,
-      [`${prefixCls}-icon-only`]: !children && icon && !loading,
+      [`${prefixCls}-icon-only`]: !children && icon,
       [`${prefixCls}-loading`]: loading,
       [`${prefixCls}-clicked`]: clicked,
       [`${prefixCls}-background-ghost`]: ghost,
@@ -161,15 +154,14 @@ export default class Button extends React.Component<ButtonProps, any> {
 
     const iconType = loading ? 'loading' : icon;
     const iconNode = iconType ? <Icon type={iconType} /> : null;
-    const needInserted = React.Children.count(children) === 1 && !iconType;
+    const needInserted = React.Children.count(children) === 1 && (!iconType || iconType === 'loading');
     const kids = React.Children.map(children, child => insertSpace(child, needInserted));
 
     return (
       <button
-        {...omit(others, ['loading', 'clicked'])}
+        {...omit(others, ['loading'])}
         type={htmlType || 'button'}
         className={classes}
-        onMouseUp={this.handleMouseUp}
         onClick={this.handleClick}
       >
         {iconNode}{kids}

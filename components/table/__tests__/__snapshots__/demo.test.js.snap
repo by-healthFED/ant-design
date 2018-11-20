@@ -361,7 +361,9 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -378,9 +380,11 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -393,7 +397,7 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -572,7 +576,9 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -589,9 +595,11 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -604,7 +612,7 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -864,7 +872,9 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -881,9 +891,11 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -896,7 +908,7 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -1085,7 +1097,9 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -1102,9 +1116,11 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -1117,7 +1133,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -2449,7 +2465,9 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
               tabindex="0"
               title="上一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -2466,9 +2484,11 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
               tabindex="0"
               title="下一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
-            <div
+            <li
               class="ant-pagination-options"
             >
               <div
@@ -2481,7 +2501,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                 />
                 页
               </div>
-            </div>
+            </li>
           </ul>
           <button
             class="ant-pagination-quick-jumper-button"
@@ -2675,7 +2695,9 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
               tabindex="0"
               title="上一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -2692,9 +2714,11 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
               tabindex="0"
               title="下一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
-            <div
+            <li
               class="ant-pagination-options"
             >
               <div
@@ -2707,7 +2731,7 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
                 />
                 页
               </div>
-            </div>
+            </li>
           </ul>
           <button
             class="ant-pagination-quick-jumper-button"
@@ -2803,28 +2827,22 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
                       style="padding-left:0px;"
                     />
                     <div>
-                      <div
-                        class="editable-row-text"
-                      >
-                        Edward King 0
-                      </div>
+                      Edrward 0
                     </div>
                   </td>
                   <td
                     class=""
                   >
                     <div>
-                      <div
-                        class="editable-row-text"
-                      >
-                        32
-                      </div>
+                      32
                     </div>
                   </td>
                   <td
                     class=""
                   >
-                    London, Park Lane no. 0
+                    <div>
+                      London Park no. 0
+                    </div>
                   </td>
                   <td
                     class=""
@@ -2832,11 +2850,369 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
                     <div
                       class="editable-row-operations"
                     >
-                      <span>
-                        <a>
-                          Edit
-                        </a>
-                      </span>
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 1
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 1
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 2
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 2
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 3
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 3
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 4
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 4
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 5
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 5
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 6
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 6
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 7
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 7
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 8
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 8
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-table-row  ant-table-row-level-0"
+                >
+                  <td
+                    class=""
+                  >
+                    <span
+                      class="ant-table-row-indent indent-level-0"
+                      style="padding-left:0px;"
+                    />
+                    <div>
+                      Edrward 9
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      32
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div>
+                      London Park no. 9
+                    </div>
+                  </td>
+                  <td
+                    class=""
+                  >
+                    <div
+                      class="editable-row-operations"
+                    >
+                      <a>
+                        Edit
+                      </a>
                     </div>
                   </td>
                 </tr>
@@ -2858,7 +3234,9 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -2870,14 +3248,70 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
             </a>
           </li>
           <li
-            aria-disabled="true"
-            class="ant-pagination-disabled ant-pagination-next"
+            class="ant-pagination-item ant-pagination-item-2"
+            tabindex="0"
+            title="2"
+          >
+            <a>
+              2
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-3"
+            tabindex="0"
+            title="3"
+          >
+            <a>
+              3
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-4"
+            tabindex="0"
+            title="4"
+          >
+            <a>
+              4
+            </a>
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+            tabindex="0"
+            title="5"
+          >
+            <a>
+              5
+            </a>
+          </li>
+          <li
+            class="ant-pagination-jump-next"
+            tabindex="0"
+            title="向后 5 页"
+          >
+            <a
+              class="ant-pagination-item-link"
+            />
+          </li>
+          <li
+            class="ant-pagination-item ant-pagination-item-10"
+            tabindex="0"
+            title="10"
+          >
+            <a>
+              10
+            </a>
+          </li>
+          <li
+            aria-disabled="false"
+            class=" ant-pagination-next"
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -2890,7 +3324,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -3099,7 +3533,9 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -3116,9 +3552,11 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -3131,7 +3569,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -3679,7 +4117,9 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -3696,9 +4136,11 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -3711,7 +4153,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -3745,7 +4187,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
           >
             <div
               class="ant-table-body"
-              style="overflow-x:auto;"
+              style="overflow-x:auto;-webkit-transform:translate3d (0, 0, 0);"
             >
               <table
                 class="ant-table-fixed"
@@ -3999,6 +4441,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
           >
             <div
               class="ant-table-body-outer"
+              style="-webkit-transform:translate3d (0, 0, 0);"
             >
               <div
                 class="ant-table-body-inner"
@@ -4083,6 +4526,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
           >
             <div
               class="ant-table-body-outer"
+              style="-webkit-transform:translate3d (0, 0, 0);"
             >
               <div
                 class="ant-table-body-inner"
@@ -4157,7 +4601,9 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -4174,9 +4620,11 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -4189,7 +4637,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -4348,7 +4796,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             </div>
             <div
               class="ant-table-body"
-              style="overflow-x:auto;max-height:300px;overflow-y:scroll;"
+              style="overflow-x:auto;-webkit-transform:translate3d (0, 0, 0);max-height:300px;overflow-y:scroll;"
             >
               <table
                 class="ant-table-fixed"
@@ -5105,6 +5553,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             </div>
             <div
               class="ant-table-body-outer"
+              style="-webkit-transform:translate3d (0, 0, 0);"
             >
               <div
                 class="ant-table-body-inner"
@@ -5340,6 +5789,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             </div>
             <div
               class="ant-table-body-outer"
+              style="-webkit-transform:translate3d (0, 0, 0);"
             >
               <div
                 class="ant-table-body-inner"
@@ -5506,7 +5956,9 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -5558,7 +6010,9 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             tabindex="0"
             title="向后 5 页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-10"
@@ -5575,9 +6029,11 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -5590,7 +6046,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -6854,7 +7310,9 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -6880,9 +7338,11 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -6895,7 +7355,7 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -7090,7 +7550,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             </div>
             <div
               class="ant-table-body"
-              style="overflow-x:auto;max-height:240px;overflow-y:scroll;"
+              style="overflow-x:auto;-webkit-transform:translate3d (0, 0, 0);max-height:240px;overflow-y:scroll;"
             >
               <table
                 class="ant-table-fixed"
@@ -7641,6 +8101,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             </div>
             <div
               class="ant-table-body-outer"
+              style="-webkit-transform:translate3d (0, 0, 0);"
             >
               <div
                 class="ant-table-body-inner"
@@ -7824,6 +8285,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             </div>
             <div
               class="ant-table-body-outer"
+              style="-webkit-transform:translate3d (0, 0, 0);"
             >
               <div
                 class="ant-table-body-inner"
@@ -7950,7 +8412,9 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -8002,7 +8466,9 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             tabindex="0"
             title="向后 5 页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-10"
@@ -8019,9 +8485,11 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -8034,7 +8502,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button mini"
@@ -8282,7 +8750,9 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -8299,9 +8769,11 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -8314,7 +8786,7 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -8608,7 +9080,9 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -8625,9 +9099,11 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -8640,7 +9116,7 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -8918,7 +9394,9 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -8935,9 +9413,11 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -8950,7 +9430,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -9227,7 +9707,9 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
               tabindex="0"
               title="上一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -9244,9 +9726,11 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
               tabindex="0"
               title="下一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
-            <div
+            <li
               class="ant-pagination-options"
             >
               <div
@@ -9259,7 +9743,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                 />
                 页
               </div>
-            </div>
+            </li>
           </ul>
           <button
             class="ant-pagination-quick-jumper-button"
@@ -9567,7 +10051,9 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -9584,9 +10070,11 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -9599,7 +10087,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -10170,7 +10658,9 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
               tabindex="0"
               title="上一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -10223,9 +10713,11 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
               tabindex="0"
               title="下一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
-            <div
+            <li
               class="ant-pagination-options"
             >
               <div
@@ -10238,7 +10730,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                 />
                 页
               </div>
-            </div>
+            </li>
           </ul>
           <button
             class="ant-pagination-quick-jumper-button"
@@ -10800,7 +11292,9 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -10853,9 +11347,11 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -10868,7 +11364,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"
@@ -11029,7 +11525,9 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
               tabindex="0"
               title="上一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -11046,9 +11544,11 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
               tabindex="0"
               title="下一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
-            <div
+            <li
               class="ant-pagination-options"
             >
               <div
@@ -11061,7 +11561,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
                 />
                 页
               </div>
-            </div>
+            </li>
           </ul>
           <button
             class="ant-pagination-quick-jumper-button mini"
@@ -11218,7 +11718,9 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
               tabindex="0"
               title="上一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
             <li
               class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -11235,9 +11737,11 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
               tabindex="0"
               title="下一页"
             >
-              <a />
+              <a
+                class="ant-pagination-item-link"
+              />
             </li>
-            <div
+            <li
               class="ant-pagination-options"
             >
               <div
@@ -11250,7 +11754,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
                 />
                 页
               </div>
-            </div>
+            </li>
           </ul>
           <button
             class="ant-pagination-quick-jumper-button mini"

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { changeConfirmLocale } from '../modal/locale';
+import { ModalLocale, changeConfirmLocale } from '../modal/locale';
 
 export interface LocaleProviderProps {
   locale: {
@@ -9,10 +9,11 @@ export interface LocaleProviderProps {
     TimePicker?: Object,
     Calendar?: Object,
     Table?: Object,
-    Modal?: Object,
+    Modal?: ModalLocale,
     Popconfirm?: Object,
     Transfer?: Object,
     Select?: Object,
+    Upload?: Object,
   };
   children?: React.ReactElement<any>;
 }

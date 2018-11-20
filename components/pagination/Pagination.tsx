@@ -19,7 +19,7 @@ export interface PaginationProps {
   onShowSizeChange?: (current: number, size: number) => void;
   showQuickJumper?: boolean;
   quickJumper?: string;
-  showTotal?: (total: number) => React.ReactNode;
+  showTotal?: (total: number, range: [number, number]) => React.ReactNode;
   size?: string;
   simple?: boolean;
   style?: React.CSSProperties;

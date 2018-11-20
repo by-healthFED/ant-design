@@ -10,9 +10,6 @@
    li span.rc-tree-iconEle {
       vertical-align: top;
   }
-  .rc-tree-switcher {
-    background-image: url(../assets/tree.png) !important;
-  }
   .rc-tree-checkbox {
     background-image: url(../assets/tree.png) !important;
   }
@@ -65,8 +62,8 @@
     }
     &.filter-node {
       > span {
-        color: @highlight-color!important;
-        font-weight: bold!important;
+        color: @highlight-color !important;
+        font-weight: 500 !important;
       }
     }
     ul {
@@ -76,13 +73,14 @@
     .@{tree-prefix-cls}-node-content-wrapper {
       display: inline-block;
       padding: 3px 5px;
-      border-radius: 2px;
+      border-radius: @border-radius-sm;
       margin: 0;
       cursor: pointer;
       text-decoration: none;
       vertical-align: top;
       color: @text-color;
-      transition: all 0.3s ease;
+      transition: all .3s;
+      position: relative;
       &:hover {
         background-color: @item-hover-bg;
       }
@@ -109,6 +107,12 @@
         text-align: center;
       }
       &.@{tree-prefix-cls}-icon_loading {
+        position: absolute;
+        left: 0;
+        top: 1px;
+        background: #fff;
+        transform: translateX(-100%);
+        transition: all .3s;
         &:after {
           display: inline-block;
           .iconfont-font("\e6ae");
@@ -120,16 +124,10 @@
         &.@{tree-prefix-cls}-switcher-noop {
           cursor: default;
         }
-        &.@{tree-prefix-cls}-roots_open,
-        &.@{tree-prefix-cls}-center_open,
-        &.@{tree-prefix-cls}-bottom_open,
-        &.@{tree-prefix-cls}-noline_open {
+        &.@{tree-prefix-cls}-switcher_open {
           .antTreeSwitcherIcon();
         }
-        &.@{tree-prefix-cls}-roots_close,
-        &.@{tree-prefix-cls}-center_close,
-        &.@{tree-prefix-cls}-bottom_close,
-        &.@{tree-prefix-cls}-noline_close {
+        &.@{tree-prefix-cls}-switcher_close {
           .antTreeSwitcherIcon();
           .ie-rotate(3);
           &:after {
@@ -192,17 +190,11 @@
           &.@{tree-prefix-cls}-switcher-noop {
             .antTreeShowLineIcon("tree-doc-icon");
           }
-          &.@{tree-prefix-cls}-roots_open,
-          &.@{tree-prefix-cls}-center_open,
-          &.@{tree-prefix-cls}-bottom_open,
-          &.@{tree-prefix-cls}-noline_open {
+          &.@{tree-prefix-cls}-switcher_open {
             color: @tree-showline-icon-color;
             .antTreeShowLineIcon("tree-showline-open-icon");
           }
-          &.@{tree-prefix-cls}-roots_close,
-          &.@{tree-prefix-cls}-center_close,
-          &.@{tree-prefix-cls}-bottom_close,
-          &.@{tree-prefix-cls}-noline_close {
+          &.@{tree-prefix-cls}-switcher_close {
             color: @tree-showline-icon-color;
             .antTreeShowLineIcon("tree-showline-close-icon");
           }
@@ -216,7 +208,7 @@
       height: 100%;
       position: absolute;
       left: 12px;
-      margin: 18px 0;
+      margin: 22px 0;
     }
   }
 }

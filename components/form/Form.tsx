@@ -9,10 +9,10 @@ import warning from '../_util/warning';
 import FormItem from './FormItem';
 import { FIELD_META_PROP } from './constants';
 
-export interface FormCreateOption {
-  onFieldsChange?: (props: any, fields: Array<any>) => void;
-  onValuesChange?: (props: any, values: any) => void;
-  mapPropsToFields?: (props: any) => void;
+export interface FormCreateOption<T> {
+  onFieldsChange?: (props: T, fields: Array<any>) => void;
+  onValuesChange?: (props: T, values: any) => void;
+  mapPropsToFields?: (props: T) => void;
   withRef?: boolean;
 }
 
@@ -54,7 +54,7 @@ export type ValidationRule = {
   validator?: (rule: any, value: any, callback: any, source?: any, options?: any) => any;
 };
 
-export type ValidateCallback = (erros: any, values: any) => void;
+export type ValidateCallback = (errors: any, values: any) => void;
 
 export type GetFieldDecoratorOptions = {
   /** 子节点的值的属性，如 Checkbox 的是 'checked' */
@@ -71,6 +71,10 @@ export type GetFieldDecoratorOptions = {
   rules?: ValidationRule[];
   /** 是否和其他控件互斥，特别用于 Radio 单选控件 */
   exclusive?: boolean;
+  /** Normalize value to form component */
+  normalize?: (value: any, prevValue: any, allValues: any) => any;
+  /** Whether stop validate on first rule of error for this field.	 */
+  validateFirst?: boolean;
 };
 
 // function create
@@ -110,9 +114,14 @@ export interface FormComponentProps {
   form: WrappedFormUtils;
 }
 
-// https://github.com/DefinitelyTyped/DefinitelyTyped/issues/9951
+export type Diff<T extends string, U extends string> =
+  ({ [P in T]: P } & { [P in U]: never } & { [x: string]: never })[T];
+export type Omit<T, K extends keyof T> = Pick<T, Diff<keyof T, K>>;
+
 export interface ComponentDecorator<TOwnProps> {
-  (component: React.ComponentClass<FormComponentProps & TOwnProps>): React.ComponentClass<TOwnProps>;
+  <P extends FormComponentProps>(
+    component: React.ComponentClass<P>,
+  ): React.ComponentClass<Omit<P, keyof FormComponentProps> & TOwnProps>;
 }
 
 export default class Form extends React.Component<FormProps, any> {
@@ -139,7 +148,7 @@ export default class Form extends React.Component<FormProps, any> {
 
   static Item = FormItem;
 
-  static create = function<TOwnProps>(options?: FormCreateOption): ComponentDecorator<TOwnProps> {
+  static create = function<TOwnProps>(options: FormCreateOption<TOwnProps> = {}): ComponentDecorator<TOwnProps> {
     const formWrapper = createDOMForm({
       fieldNameProp: 'id',
       ...options,
@@ -174,8 +183,10 @@ export default class Form extends React.Component<FormProps, any> {
         this.props.form.getFieldProps = this.deprecatedGetFieldProps;
 
         const withRef: any = {};
-        if (options && options.withRef) {
+        if (options.withRef) {
           withRef.ref = 'formWrappedComponent';
+        } else if (this.props.wrappedComponentRef) {
+          withRef.ref = this.props.wrappedComponentRef;
         }
         return <Component {...this.props} {...withRef} />;
       },
