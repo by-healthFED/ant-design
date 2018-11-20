@@ -8,5 +8,5 @@ rm -rf ./_site
 
 # build
 npm run compile
-npm publish --access public --tag 2.x
+npm publish --access public
 npm run deploy
