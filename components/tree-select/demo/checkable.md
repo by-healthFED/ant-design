@@ -1,13 +1,13 @@
 ---
-order: 2
+order: 3
 title:
-  zh-CN: 多选
-  en-US: Multiple
+  zh-CN: 可勾选
+  en-US: Checkable
 ---
 
 ## zh-CN
 
-多选和勾选框功能。
+使用勾选框实现多选功能。
 
 ## en-US
 
@@ -50,7 +50,6 @@ class Demo extends React.Component {
     value: ['0-0-0'],
   }
   onChange = (value) => {
-    console.log('onChange ', value, arguments);
     this.setState({ value });
   }
   render() {
@@ -58,7 +57,6 @@ class Demo extends React.Component {
       treeData,
       value: this.state.value,
       onChange: this.onChange,
-      multiple: true,
       treeCheckable: true,
       showCheckedStrategy: SHOW_PARENT,
       searchPlaceholder: 'Please select',

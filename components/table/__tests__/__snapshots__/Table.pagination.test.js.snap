@@ -85,7 +85,9 @@ exports[`Table.pagination renders pagination correctly 1`] = `
             tabindex="0"
             title="上一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
           <li
             class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
@@ -111,9 +113,11 @@ exports[`Table.pagination renders pagination correctly 1`] = `
             tabindex="0"
             title="下一页"
           >
-            <a />
+            <a
+              class="ant-pagination-item-link"
+            />
           </li>
-          <div
+          <li
             class="ant-pagination-options"
           >
             <div
@@ -126,7 +130,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
               />
               页
             </div>
-          </div>
+          </li>
         </ul>
         <button
           class="ant-pagination-quick-jumper-button"

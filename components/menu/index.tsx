@@ -27,6 +27,7 @@ export interface MenuProps {
   theme?: 'light' | 'dark';
   /** enum: `vertical` `horizontal` `inline` */
   mode?: 'vertical' | 'horizontal' | 'inline';
+  selectable?: boolean;
   selectedKeys?: Array<string>;
   defaultSelectedKeys?: Array<string>;
   openKeys?: Array<string>;
@@ -62,6 +63,7 @@ export default class Menu extends React.Component<MenuProps, any> {
     siderCollapsed: PropTypes.bool,
   };
   switchModeFromInline: boolean;
+  leaveAnimationExecutedWhenInlineCollapsed: boolean;
   inlineOpenKeys = [];
   constructor(props) {
     super(props);
@@ -98,23 +100,24 @@ export default class Menu extends React.Component<MenuProps, any> {
         nextProps.mode !== 'inline') {
       this.switchModeFromInline = true;
     }
+    if ('openKeys' in nextProps) {
+      this.setState({ openKeys: nextProps.openKeys });
+      return;
+    }
     if ((nextProps.inlineCollapsed && !this.props.inlineCollapsed) ||
         (nextContext.siderCollapsed && !this.context.siderCollapsed)) {
-      this.switchModeFromInline = true;
+      this.switchModeFromInline = !!this.state.openKeys.length;
       this.inlineOpenKeys = this.state.openKeys;
-      this.setOpenKeys([]);
+      this.setState({ openKeys: [] });
     }
     if ((!nextProps.inlineCollapsed && this.props.inlineCollapsed) ||
         (!nextContext.siderCollapsed && this.context.siderCollapsed)) {
-      this.setOpenKeys(this.inlineOpenKeys);
+      this.setState({ openKeys: this.inlineOpenKeys });
       this.inlineOpenKeys = [];
-    }
-    if ('openKeys' in nextProps) {
-      this.setState({ openKeys: nextProps.openKeys });
     }
   }
   handleClick = (e) => {
-    this.setOpenKeys([]);
+    this.handleOpenChange([]);
 
     const { onClick } = this.props;
     if (onClick) {
@@ -135,8 +138,13 @@ export default class Menu extends React.Component<MenuProps, any> {
     }
   }
   getRealMenuMode() {
+    const inlineCollapsed = this.getInlineCollapsed();
+    if (this.switchModeFromInline && inlineCollapsed && this.leaveAnimationExecutedWhenInlineCollapsed) {
+      this.leaveAnimationExecutedWhenInlineCollapsed = false;
+      return 'inline';
+    }
     const { mode } = this.props;
-    return this.getInlineCollapsed() ? 'vertical' : mode;
+    return inlineCollapsed ? 'vertical' : mode;
   }
   getInlineCollapsed() {
     const { inlineCollapsed } = this.props;
@@ -145,9 +153,8 @@ export default class Menu extends React.Component<MenuProps, any> {
     }
     return inlineCollapsed;
   }
-  getMenuOpenAnimation() {
+  getMenuOpenAnimation(menuMode) {
     const { openAnimation, openTransitionName } = this.props;
-    const menuMode = this.getRealMenuMode();
     let menuOpenAnimation = openAnimation || openTransitionName;
     if (openAnimation === undefined && openTransitionName === undefined) {
       switch (menuMode) {
@@ -165,17 +172,28 @@ export default class Menu extends React.Component<MenuProps, any> {
           }
           break;
         case 'inline':
-          menuOpenAnimation = animation;
+          menuOpenAnimation = {
+            ...animation,
+            leave: (node, done) => animation.leave(node, () => {
+              // Make sure inline menu leave animation finished before mode is switched
+              this.switchModeFromInline = false;
+              // Fix https://github.com/ant-design/ant-design/issues/8475
+              this.leaveAnimationExecutedWhenInlineCollapsed = true;
+              this.setState({});
+              done();
+            }),
+          };
           break;
         default:
       }
     }
     return menuOpenAnimation;
   }
+
   render() {
     const { prefixCls, className, theme } = this.props;
     const menuMode = this.getRealMenuMode();
-    const menuOpenAnimation = this.getMenuOpenAnimation();
+    const menuOpenAnimation = this.getMenuOpenAnimation(menuMode);
 
     const menuClassName = classNames(className, `${prefixCls}-${theme}`, {
       [`${prefixCls}-inline-collapsed`]: this.getInlineCollapsed(),

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { findDOMNode } from 'react-dom';
 import classNames from 'classnames';
 import Animate from 'rc-animate';
 import isCssAnimationSupported from '../_util/isCssAnimationSupported';
@@ -10,6 +9,7 @@ export interface SpinProps {
   prefixCls?: string;
   className?: string;
   spinning?: boolean;
+  style?: React.CSSProperties;
   size?: 'small' | 'default' | 'large';
   tip?: string;
   delay?: number;
@@ -50,7 +50,9 @@ export default class Spin extends React.Component<SpinProps, any> {
   componentDidMount() {
     if (!isCssAnimationSupported()) {
       // Show text in IE8/9
-      findDOMNode(this).className += ` ${this.props.prefixCls}-show-text`;
+      this.setState({
+        notCssAnimationSupported: true,
+      });
     }
   }
 
@@ -72,7 +74,7 @@ export default class Spin extends React.Component<SpinProps, any> {
       clearTimeout(this.debounceTimeout);
     }
     if (currentSpinning && !spinning) {
-      this.debounceTimeout = setTimeout(() => this.setState({ spinning }), 300);
+      this.debounceTimeout = setTimeout(() => this.setState({ spinning }), 200);
       if (this.delayTimeout) {
         clearTimeout(this.delayTimeout);
       }
@@ -89,13 +91,13 @@ export default class Spin extends React.Component<SpinProps, any> {
   }
   render() {
     const { className, size, prefixCls, tip, wrapperClassName, ...restProps } = this.props;
-    const { spinning } = this.state;
+    const { spinning, notCssAnimationSupported } = this.state;
 
     const spinClassName = classNames(prefixCls, {
       [`${prefixCls}-sm`]: size === 'small',
       [`${prefixCls}-lg`]: size === 'large',
       [`${prefixCls}-spinning`]: spinning,
-      [`${prefixCls}-show-text`]: !!tip,
+      [`${prefixCls}-show-text`]: !!tip || notCssAnimationSupported,
     }, className);
 
     // fix https://fb.me/react-unknown-prop

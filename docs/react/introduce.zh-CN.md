@@ -13,7 +13,7 @@ title: Ant Design of React
 
 <style>
 .pic-plus > * {
-  display: inline-block!important;
+  display: inline-block !important;
   vertical-align: middle;
 }
 .pic-plus span {
@@ -41,7 +41,7 @@ title: Ant Design of React
 ## 版本
 
 - 稳定版：[![npm package](https://img.shields.io/npm/v/antd.svg?style=flat-square)](https://www.npmjs.org/package/antd)
-- 开发版：[![](https://cnpmjs.org/badge/v/antd.svg?&tag=beta&subject=npm)](https://www.npmjs.org/package/antd)
+- 预览版：[![npm (next)](https://img.shields.io/npm/v/antd/next.svg?style=flat-square)](https://www.npmjs.org/package/antd)
 
 你可以订阅：https://github.com/ant-design/ant-design/releases.atom 来获得稳定版发布的通知。
 
@@ -93,7 +93,7 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
    // .babelrc or babel-loader option
    {
      "plugins": [
-       ["import", { libraryName: "antd", style: "css" }] // `style: true` 会加载 less 文件
+       ["import", { "libraryName": "antd", "style": "css" }] // `style: true` 会加载 less 文件
      ]
    }
    ```
@@ -133,10 +133,9 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 ## 链接
 
 - [首页](http://ant.design/)
-- [UI 组件库](/docs/react/introduce)
+- [组件库](/docs/react/introduce)
+- [Ant Design Pro](http://pro.ant.design/)
 - [更新日志](/changelog)
-- [官方脚手架](https://github.com/dvajs/dva-cli/)
-- [开发工具文档](http://ant-tool.github.io/)
 - [脚手架市场](http://scaffold.ant.design)
 - [React 底层基础组件](http://react-component.github.io/)
 - [移动端组件](http://mobile.ant.design)
@@ -153,9 +152,12 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
 - [蚂蚁金服](http://www.antgroup.com/)
 - [阿里巴巴](http://www.alibaba.com/)
+- [腾讯](http://www.tencent.com)
+- [百度](http://www.baidu.com)
 - [口碑](http://www.koubei.com/)
 - [美团](http://www.meituan.com)
 - [滴滴](http://www.xiaojukeji.com/)
+- [饿了么](https://www.ele.me/)
 
 > 如果你的公司和产品使用了 Ant Design，欢迎到 [这里](https://github.com/ant-design/ant-design/issues/477) 留言。
 
@@ -171,7 +173,7 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
 通过 Stack Overflow 或者 Segment Fault 提问时，建议加上 `antd` 标签。
 
-1. [Stack Overflow](http://stackoverflow.com/questions/tagged/antd)（英文）
-2. [Segment Fault](https://segmentfault.com/t/antd)（中文）
+1. [<img alt="Stack Overflow" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg?v=2bb144720a66" width="140" />](http://stackoverflow.com/questions/tagged/antd)（English）
+2. [<img alt="Segment Fault" src="http://static.segmentfault.com/global/img/logo.svg" width="100" />](https://segmentfault.com/t/antd)（中文）
 3. [![Gitter](https://badges.gitter.im/ant-design/ant-design-english.svg)](https://gitter.im/ant-design/ant-design-english?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) (English)
 4. [![Join the chat at https://gitter.im/ant-design/ant-design](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ant-design/ant-design?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)（中文）

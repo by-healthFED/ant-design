@@ -43,6 +43,14 @@ export interface SiderProps {
   breakpoint?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 }
 
+const generateId = (() => {
+  let i = 0;
+  return (prefix: string = '') => {
+    i += 1;
+    return `${prefix}${i}`;
+  };
+})();
+
 export default class Sider extends React.Component<SiderProps, any> {
   static __ANT_LAYOUT_SIDER: any = true;
 
@@ -60,10 +68,16 @@ export default class Sider extends React.Component<SiderProps, any> {
     siderCollapsed: PropTypes.bool,
   };
 
+  static contextTypes = {
+    siderHook: PropTypes.object,
+  };
+
   private mql: any;
+  private uniqueId: string;
 
   constructor(props) {
     super(props);
+    this.uniqueId = generateId('ant-sider-');
     let matchMedia;
     if (typeof window !== 'undefined') {
       matchMedia = window.matchMedia;
@@ -85,7 +99,7 @@ export default class Sider extends React.Component<SiderProps, any> {
 
   getChildContext() {
     return {
-      siderCollapsed: this.props.collapsed,
+      siderCollapsed: this.state.collapsed,
     };
   }
 
@@ -102,11 +116,19 @@ export default class Sider extends React.Component<SiderProps, any> {
       this.mql.addListener(this.responsiveHandler);
       this.responsiveHandler(this.mql);
     }
+
+    if (this.context.siderHook) {
+      this.context.siderHook.addSider(this.uniqueId);
+    }
   }
 
   componentWillUnmount() {
     if (this.mql) {
       this.mql.removeListener(this.responsiveHandler);
+    }
+
+    if (this.context.siderHook) {
+      this.context.siderHook.removeSider(this.uniqueId);
     }
   }
 
@@ -161,7 +183,7 @@ export default class Sider extends React.Component<SiderProps, any> {
     const triggerDom = (
       trigger !== null ?
       zeroWidthTrigger || (
-        <div className={`${prefixCls}-trigger`} onClick={this.toggle}>
+        <div className={`${prefixCls}-trigger`} onClick={this.toggle} style={{ width: siderWidth }}>
           {trigger || defaultTrigger}
         </div>
       ) : null
@@ -169,6 +191,8 @@ export default class Sider extends React.Component<SiderProps, any> {
     const divStyle = {
       ...style,
       flex: `0 0 ${siderWidth}px`,
+      maxWidth: `${siderWidth}px`, // Fix width transition bug in IE11
+      minWidth: `${siderWidth}px`, // https://github.com/ant-design/ant-design/issues/6349
       width: `${siderWidth}px`,
     };
     const siderCls = classNames(className, prefixCls, {

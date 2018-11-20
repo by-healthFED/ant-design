@@ -4,13 +4,13 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
 <ul
   class="rc-tree"
   role="tree-node"
-  unselectable="true"
+  unselectable="on"
 >
   <li
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-noline_open"
+      class="rc-tree-switcher rc-tree-switcher_open"
     />
     <span
       class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -37,7 +37,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
         class="rc-tree-treenode-disabled"
       >
         <span
-          class="rc-tree-switcher rc-tree-noline_open rc-tree-switcher-disabled"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           class="rc-tree-checkbox rc-tree-checkbox-checked rc-tree-checkbox-disabled"
@@ -64,10 +64,10 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
-              class="rc-tree-checkbox rc-tree-checkbox-checked rc-tree-checkbox-disabled"
+              class="rc-tree-checkbox rc-tree-checkbox-disabled"
             >
               <span
                 class="rc-tree-checkbox-inner"
@@ -88,7 +88,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -114,7 +114,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-noline_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -141,7 +141,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -176,13 +176,13 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
 <ul
   class="rc-tree"
   role="tree-node"
-  unselectable="true"
+  unselectable="on"
 >
   <li
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-noline_open"
+      class="rc-tree-switcher rc-tree-switcher_open"
     />
     <span
       class="rc-tree-checkbox rc-tree-checkbox-indeterminate"
@@ -209,10 +209,10 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-noline_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
-          class="rc-tree-checkbox rc-tree-checkbox-checked rc-tree-checkbox-disabled"
+          class="rc-tree-checkbox rc-tree-checkbox-checked"
         >
           <span
             class="rc-tree-checkbox-inner"
@@ -236,7 +236,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -260,7 +260,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -284,7 +284,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox rc-tree-checkbox-checked"
@@ -310,7 +310,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-noline_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           class="rc-tree-checkbox"
@@ -337,7 +337,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox"
@@ -361,7 +361,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox"
@@ -385,7 +385,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-checkbox"
@@ -411,7 +411,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+          class="rc-tree-switcher rc-tree-switcher-noop"
         />
         <span
           class="rc-tree-checkbox"
@@ -437,7 +437,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-noline_close"
+      class="rc-tree-switcher rc-tree-switcher_close"
     />
     <span
       class="rc-tree-checkbox"
@@ -461,7 +461,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+      class="rc-tree-switcher rc-tree-switcher-noop"
     />
     <span
       class="rc-tree-checkbox"
@@ -486,15 +486,15 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
 
 exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
 <ul
-  class="rc-tree-show-line rc-tree"
+  class="rc-tree rc-tree-show-line"
   role="tree-node"
-  unselectable="true"
+  unselectable="on"
 >
   <li
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-roots_open"
+      class="rc-tree-switcher rc-tree-switcher_open"
     />
     <span
       class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
@@ -517,7 +517,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-center_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open rc-tree-node-selected"
@@ -533,14 +533,14 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
           </span>
         </span>
         <ul
-          class="rc-tree-child-tree rc-tree-child-tree-open rc-tree-line"
+          class="rc-tree-child-tree rc-tree-child-tree-open"
           data-expanded="true"
         >
           <li
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-center_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -560,7 +560,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-bottom_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -582,7 +582,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-center_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
@@ -598,14 +598,14 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
           </span>
         </span>
         <ul
-          class="rc-tree-child-tree rc-tree-child-tree-open rc-tree-line"
+          class="rc-tree-child-tree rc-tree-child-tree-open"
           data-expanded="true"
         >
           <li
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-bottom_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -627,7 +627,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-switcher-noop rc-tree-bottom_docu"
+          class="rc-tree-switcher rc-tree-switcher-noop"
         />
         <span
           class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -650,15 +650,15 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
 
 exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
 <ul
-  class="draggable-tree rc-tree"
+  class="rc-tree draggable-tree"
   role="tree-node"
-  unselectable="true"
+  unselectable="on"
 >
   <li
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-noline_open"
+      class="rc-tree-switcher rc-tree-switcher_open"
     />
     <span
       aria-grabbed="true"
@@ -680,7 +680,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-noline_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           aria-grabbed="true"
@@ -702,7 +702,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               aria-grabbed="true"
@@ -721,7 +721,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               aria-grabbed="true"
@@ -740,7 +740,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               aria-grabbed="true"
@@ -761,7 +761,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-noline_close"
+          class="rc-tree-switcher rc-tree-switcher_close"
         />
         <span
           aria-grabbed="true"
@@ -780,7 +780,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+          class="rc-tree-switcher rc-tree-switcher-noop"
         />
         <span
           aria-grabbed="true"
@@ -801,7 +801,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-noline_close"
+      class="rc-tree-switcher rc-tree-switcher_close"
     />
     <span
       aria-grabbed="true"
@@ -820,7 +820,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+      class="rc-tree-switcher rc-tree-switcher-noop"
     />
     <span
       aria-grabbed="true"
@@ -842,21 +842,73 @@ exports[`renders ./components/tree/demo/dynamic.md correctly 1`] = `
 <ul
   class="rc-tree"
   role="tree-node"
-  unselectable="true"
-/>
-`;
-
-exports[`renders ./components/tree/demo/line.md correctly 1`] = `
-<ul
-  class="rc-tree-show-line rc-tree"
-  role="tree-node"
-  unselectable="true"
+  unselectable="on"
 >
   <li
     class=""
   >
     <span
-      class="rc-tree-switcher rc-tree-roots_open"
+      class="rc-tree-switcher rc-tree-switcher_close"
+    />
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+      title="Expand to load"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        Expand to load
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_close"
+    />
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
+      title="Expand to load"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        Expand to load
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher-noop"
+    />
+    <span
+      class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
+      title="Tree Node"
+    >
+      <span
+        class="rc-tree-title"
+      >
+        Tree Node
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/tree/demo/line.md correctly 1`] = `
+<ul
+  class="rc-tree rc-tree-show-line"
+  role="tree-node"
+  unselectable="on"
+>
+  <li
+    class=""
+  >
+    <span
+      class="rc-tree-switcher rc-tree-switcher_open"
     />
     <span
       class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
@@ -876,7 +928,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-center_open"
+          class="rc-tree-switcher rc-tree-switcher_open"
         />
         <span
           class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-open"
@@ -889,14 +941,14 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
           </span>
         </span>
         <ul
-          class="rc-tree-child-tree rc-tree-child-tree-open rc-tree-line"
+          class="rc-tree-child-tree rc-tree-child-tree-open"
           data-expanded="true"
         >
           <li
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-center_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -913,7 +965,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-center_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -930,7 +982,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
             class=""
           >
             <span
-              class="rc-tree-switcher rc-tree-switcher-noop rc-tree-bottom_docu"
+              class="rc-tree-switcher rc-tree-switcher-noop"
             />
             <span
               class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
@@ -949,7 +1001,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-center_close"
+          class="rc-tree-switcher rc-tree-switcher_close"
         />
         <span
           class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
@@ -966,7 +1018,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
         class=""
       >
         <span
-          class="rc-tree-switcher rc-tree-bottom_close"
+          class="rc-tree-switcher rc-tree-switcher_close"
         />
         <span
           class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
@@ -988,7 +1040,7 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
 <div>
   <span
     class="ant-input-search ant-input-affix-wrapper"
-    style="width:300px;"
+    style="margin-bottom:8px;"
   >
     <input
       class="ant-input"
@@ -1006,13 +1058,13 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
   <ul
     class="rc-tree"
     role="tree-node"
-    unselectable="true"
+    unselectable="on"
   >
     <li
       class=""
     >
       <span
-        class="rc-tree-switcher rc-tree-noline_close"
+        class="rc-tree-switcher rc-tree-switcher_close"
       />
       <span
         class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
@@ -1034,7 +1086,7 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
       class=""
     >
       <span
-        class="rc-tree-switcher rc-tree-noline_close"
+        class="rc-tree-switcher rc-tree-switcher_close"
       />
       <span
         class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-close"
@@ -1056,7 +1108,7 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
       class=""
     >
       <span
-        class="rc-tree-switcher rc-tree-switcher-noop rc-tree-noline_docu"
+        class="rc-tree-switcher rc-tree-switcher-noop"
       />
       <span
         class="rc-tree-node-content-wrapper rc-tree-node-content-wrapper-normal"
