@@ -75,7 +75,13 @@
   &-tbody > tr {
     transition: all .3s;
     &.@{table-prefix-cls}-row-hover,
+    & > td:first-child {
+      border-left: 1px solid transparent;
+    }
     &:hover {
+      & > td:first-child {
+        border-left: 2px solid @primary-color;
+      }
       & > td {
         background: @table-row-hover-bg;
       }
