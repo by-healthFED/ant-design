@@ -3,21 +3,6 @@
 @import "../../checkbox/style/mixin";
 @import "./mixin";
 
-@rc-tree-cls: ~"rc-tree";
-
-.@{rc-tree-cls} {
-  line-height: 1;
-   li span.rc-tree-iconEle {
-      vertical-align: top;
-  }
-  .rc-tree-checkbox {
-    background-image: url(../assets/tree.png) !important;
-  }
-  li span.rc-tree-switcher.rc-tree-noline_docu {
-    background-image: none !important;
-  }
-}
-
 @tree-prefix-cls: ~"@{ant-prefix}-tree";
 @tree-showline-icon-color: @text-color-secondary;
 
@@ -128,11 +113,7 @@
           .antTreeSwitcherIcon();
         }
         &.@{tree-prefix-cls}-switcher_close {
-          .antTreeSwitcherIcon();
-          .ie-rotate(3);
-          &:after {
-            transform: rotate(270deg) scale(0.59);
-          }
+          .antTreeSwitcherIcon('tree-default-close-icon');
         }
       }
     }
