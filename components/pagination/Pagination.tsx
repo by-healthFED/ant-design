@@ -5,6 +5,7 @@ import zhCN from 'rc-pagination/lib/locale/zh_CN';
 import classNames from 'classnames';
 import injectLocale from '../locale-provider/injectLocale';
 import Select from '../select';
+import Button from '../button';
 import MiniSelect from './MiniSelect';
 
 export interface PaginationProps {
@@ -60,12 +61,13 @@ abstract class Pagination extends React.Component<PaginationProps, any> {
     const locale = this.getLocale();
     const isSmall = size === 'small';
     const quickJumperButton = (
-      <button
+      <Button
         className={classNames(`${prefixCls}-quick-jumper-button`, { mini: isSmall })}
         onClick={this._handleQuickJumper}
+        type="primary"
       >
       {quickJumper}
-      </button>
+      </Button>
     );
 
     return (
